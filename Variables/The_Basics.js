@@ -59,14 +59,22 @@ not block-scoped, which leads to unexpected behaviour
 //  */
 
 
-const messageText = `Welcome to Textio`;
-let isBirthday = true;
+// const messageText = `Welcome to Textio`;
+// let isBirthday = true;
 
-if (isBirthday) {
-    const messageText = `Happy Birthday!`;
-    console.log(`sending birthday message...`);
-    console.log(`messageText: `, messageText);
-}
+// if (isBirthday) {
+//     const messageText = `Happy Birthday!`;
+//     console.log(`sending birthday message...`);
+//     console.log(`messageText: `, messageText);
+// }
 
-        console.log(`sending welcome message...`);
-        console.log(`messageText: `, messageText);
+//         console.log(`sending welcome message...`);
+//         console.log(`messageText: `, messageText);
+
+/*
+sending birthday message...
+messageText:  Happy Birthday!
+sending welcome message...
+messageText:  Welcome to Textio
+*/
+
