@@ -66,3 +66,24 @@
 // Delivered is null: true
 // Failed is null: true
 // */
+
+// Dynamic and Weak
+
+// let totalSentMessages = 100;
+// let totalReceivedMessages = '50';
+
+// const totalmessages = totalSentMessages + totalReceivedMessages;
+
+// console.log(`Total sent messages:`, totalSentMessages);
+// console.log(`Total received messages:`, totalReceivedMessages);
+// console.log(`Total messages:`, totalmessages); // 10050
+
+
+let totalSentMessages = 100;
+let totalReceivedMessages = 50;
+
+const totalmessages = totalSentMessages + totalReceivedMessages;
+
+console.log(`Total sent messages:`, totalSentMessages);
+console.log(`Total received messages:`, totalReceivedMessages);
+console.log(`Total messages:`, totalmessages); // 150
